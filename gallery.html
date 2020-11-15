@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main-style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
@@ -220,16 +221,16 @@
                         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                    
+                    <div class="modal-body" style="min-width: 250px;">
+                        <button type="button" style="position: absolute;z-index: 2; left: 1px; top: 50%; border: none;background-color: transparent;" class="btn btn-primary float-left" id="show-previous-image"><i class='fas fa-angle-left' style='font-size:36px'></i>
                         </button>
 
-                        <button type="button" id="show-next-image" class="btn btn-primary float-right"><i class="fa fa-arrow-right"></i>
+                        <button type="button" style="position: absolute; z-index: 2; right: 1px; top: 50%; border: none;background-color: transparent;" id="show-next-image" class="btn btn-primary float-right"><i class='fas fa-angle-right' style='font-size:36px'></i>
                         </button>
+                        <img id="image-gallery-image" style="z-index: 1" class="img-responsive col-md-12" src="">
                     </div>
+                
                 </div>
             </div>
         </div>

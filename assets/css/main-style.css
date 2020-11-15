@@ -2413,7 +2413,16 @@ footer .footer_end {
 .gallery-section #image-gallery .modal-footer{
   display: block;
 }
+.modal-lg {
+  width: 500px;
+  height: 500px;
+}
 
+#image-gallery-image{
+  width: 450px;
+  height: 450px;
+  left: 5px;
+}
 .gallery-section .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
